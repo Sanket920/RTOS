@@ -1,0 +1,87 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081068: call_start_cpu1 at /home/sanket/esp/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081068: call_start_cpu1 at /home/sanket/esp/esp-idf/components/esp_system/port/cpu_start.c:142
+[0m
+[0;33m0x400d6057: task_wdt_timeout_handling at /home/sanket/esp/esp-idf/components/esp_system/task_wdt.c:486 (discriminator 3)
+[0m
+[0;33m0x400d61e0: task_wdt_isr at /home/sanket/esp/esp-idf/components/esp_system/task_wdt.c:586
+[0m
+[0;33m0x4008269d: _xt_lowint1 at /home/sanket/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400db541: _vfprintf_r at ??:?
+[0m
+[0;33m0x400d7699: printf at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x400d5112: app_main at /home/sanket/sanket/rtos/helloworld/build/../main/helloworld.c:9 (discriminator 1)
+[0m
+[0;33m0x400e52e6: main_task at /home/sanket/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087db5: vPortTaskWrapper at /home/sanket/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d6057: task_wdt_timeout_handling at /home/sanket/esp/esp-idf/components/esp_system/task_wdt.c:486 (discriminator 3)
+[0m
+[0;33m0x400d61e0: task_wdt_isr at /home/sanket/esp/esp-idf/components/esp_system/task_wdt.c:586
+[0m
+[0;33m0x4008269d: _xt_lowint1 at /home/sanket/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d491e: uart_ll_get_txfifo_len at /home/sanket/esp/esp-idf/components/hal/esp32/include/hal/uart_ll.h:319 (discriminator 1)
+ (inlined by) uart_tx_char at /home/sanket/esp/esp-idf/components/vfs/vfs_uart.c:156 (discriminator 1)
+[0m
+[0;33m0x400d50eb: uart_write at /home/sanket/esp/esp-idf/components/vfs/vfs_uart.c:209
+[0m
+[0;33m0x400d3fd7: console_write at /home/sanket/esp/esp-idf/components/vfs/vfs_console.c:73
+[0m
+[0;33m0x400d3ba2: esp_vfs_write at /home/sanket/esp/esp-idf/components/vfs/vfs.c:436 (discriminator 4)
+[0m
+[0;33m0x400d74a6: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/fvwrite.c:232
+[0m
+[0;33m0x400e29e7: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+[0m
+[0;33m0x400de40e: _vfprintf_r at ??:?
+[0m
+[0;33m0x400d7699: printf at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x400d5112: app_main at /home/sanket/sanket/rtos/helloworld/build/../main/helloworld.c:9 (discriminator 1)
+[0m
+[0;33m0x400e52e6: main_task at /home/sanket/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087db5: vPortTaskWrapper at /home/sanket/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0;33m0x400d6057: task_wdt_timeout_handling at /home/sanket/esp/esp-idf/components/esp_system/task_wdt.c:486 (discriminator 3)
+[0m
+[0;33m0x400d61e0: task_wdt_isr at /home/sanket/esp/esp-idf/components/esp_system/task_wdt.c:586
+[0m
+[0;33m0x4008269d: _xt_lowint1 at /home/sanket/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1117
+[0m
+[0;33m0x400d4920: uart_ll_get_txfifo_len at /home/sanket/esp/esp-idf/components/hal/esp32/include/hal/uart_ll.h:319 (discriminator 1)
+ (inlined by) uart_tx_char at /home/sanket/esp/esp-idf/components/vfs/vfs_uart.c:156 (discriminator 1)
+[0m
+[0;33m0x400d50eb: uart_write at /home/sanket/esp/esp-idf/components/vfs/vfs_uart.c:209
+[0m
+[0;33m0x400d3fd7: console_write at /home/sanket/esp/esp-idf/components/vfs/vfs_console.c:73
+[0m
+[0;33m0x400d3ba2: esp_vfs_write at /home/sanket/esp/esp-idf/components/vfs/vfs.c:436 (discriminator 4)
+[0m
+[0;33m0x400d74a6: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/fvwrite.c:232
+[0m
+[0;33m0x400e29e7: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+[0m
+[0;33m0x400de40e: _vfprintf_r at ??:?
+[0m
+[0;33m0x400d7699: printf at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x400d5112: app_main at /home/sanket/sanket/rtos/helloworld/build/../main/helloworld.c:9 (discriminator 1)
+[0m
+[0;33m0x400e52e6: main_task at /home/sanket/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/port_common.c:131 (discriminator 2)
+[0m
+[0;33m0x40087db5: vPortTaskWrapper at /home/sanket/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:151
+[0m
+[0m
